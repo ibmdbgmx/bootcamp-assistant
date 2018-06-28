@@ -94,7 +94,7 @@ app.get('/sendMessage', function (req, res) {
       session.context = response.context;
 
       var additionalText = "";
-      if(response.context.bandera_ubicacion !== undefined)
+      if(response.context.flag_ubicacion !== undefined)
       {
         var additionalText = "<br><iframe " + 
           "src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d482173.93142824515!2d-99.39010785" +
