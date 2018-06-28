@@ -3,5 +3,5 @@ applications:
   memory: 256M
   instances: 1
   domain: mybluemix.net
-  name: lgbc-devwkrecipe-assistant
+  name: bootcamp-asistant
   random-route: true
